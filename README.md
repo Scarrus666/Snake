@@ -1,3 +1,3 @@
 # Cobra
 
-## A Snake - like Game
+## A Snake like Game
