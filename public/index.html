@@ -1269,10 +1269,15 @@
             // Update direction
             direction = nextDirection;
             
-            // Play move sound (occasionally to not be annoying)
+            // Play move sound (occasionally to not be annoying) ---> disabled because of annoyance
+            /*
             if (Math.random() > 0.7) {
                 playSound('move');
             }
+            */
+
+            // Play move sound all the time --> disabled to reduce annoyance
+            // playSound('move');
             
             // Calculate new head position
             const head = {...snake[0]};
