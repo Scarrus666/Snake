@@ -1,0 +1,20 @@
+{
+  "name": "snake-game",
+  "version": "1.0.0",
+  "description": "Advanced Snake Game with sound and options",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
