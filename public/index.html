@@ -1505,16 +1505,16 @@
             // Change direction based on key press
             switch(e.keyCode) {
                 case 38: // Up arrow
-                    if (direction !== 'down') nextDirection = 'up';
+                    if (direction !== 'down') nextDirection = 'up'; playSound('move');
                     break;
                 case 40: // Down arrow
-                    if (direction !== 'up') nextDirection = 'down';
+                    if (direction !== 'up') nextDirection = 'down'; playSound('move');
                     break;
                 case 37: // Left arrow
-                    if (direction !== 'right') nextDirection = 'left';
+                    if (direction !== 'right') nextDirection = 'left'; playSound('move');
                     break;
                 case 39: // Right arrow
-                    if (direction !== 'left') nextDirection = 'right';
+                    if (direction !== 'left') nextDirection = 'right'; playSound('move');
                     break;
                 case 32: // Space bar - start/pause
                 case 80: // P key - pause
