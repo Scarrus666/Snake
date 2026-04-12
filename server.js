@@ -41,7 +41,7 @@ app.post('/api/highscores', (req, res) => {
 });
 
 // Start server
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`🐍 Snake Game Server running on:`);
     console.log(`🌐 Local: http://localhost:${PORT}`);
     console.log(`🌐 Network: http://${getLocalIP()}:${PORT}`);
